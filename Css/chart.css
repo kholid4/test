@@ -138,22 +138,21 @@
   margin: 0 auto;
 }
 
-/* Media queries for responsiveness on all devices */
-@media screen and (max-width: 480px) {
+/* Media queries for responsiveness */
+@media screen and (max-width: 1024px) {
   .heading-analytics {
-    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
   }
 
   .analytics-title {
-    font-size: 18px;
+    text-align: center;
+    font-size: 24px;
   }
 
   .analytics-text, .location {
-    font-size: 14px;
-  }
-
-  .dashboard1, .dashboard2, .dashboard3, .dashboard4 {
-    padding: 5%;
+    text-align: center;
+    font-size: 18px;
   }
 
   .dashboard-column-bar1, .dashboard-content-bar1, .dashboard-barlocation-bar1 {
@@ -169,5 +168,34 @@
     max-width: 100%;
     width: 100%;
     margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading-analytics {
+    font-size: 24px;
+  }
+
+  .analytics-title {
+    font-size: 20px; 
+  }
+
+  .analytics-text, .location {
+    font-size: 16px;
+  }
+
+  .dashboard1, .dashboard2, .dashboard3, .dashboard4 {
+    padding: 5%; 
+  }
+
+  .dashboard-column-bar1, .dashboard-content-bar1, .dashboard-barlocation-bar1 {
+    min-width: 100%;
+    margin: 10px 0; 
+  }
+
+  #barchart3, #lineChart, #chart3, #myChart {
+    max-width: 100%;
+    width: 100%;
+    margin: 10px 0; 
   }
 }
