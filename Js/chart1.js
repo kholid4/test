@@ -48,6 +48,7 @@ function createChart() {
             ]
         },
         options: {
+            responsive: true,
             indexAxis: 'y',
             scales: {
                 x: {
