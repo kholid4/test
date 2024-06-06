@@ -43,10 +43,11 @@ fetch('/Assets/Data/linechart.json')
             data: Object.values(monthlyRevenue),
             fill: false,
             borderColor: 'rgba(255, 183, 3, 1)',
-            tension: 0.2
+            tension: 0.1
           }]
         },
         options: {
+          responsive: true,
           scales: {
             x: {
               ticks: {
@@ -61,7 +62,6 @@ fetch('/Assets/Data/linechart.json')
             }
           },
           plugins: {
-            responsive: true,
             legend: {
               labels: {
                 color: 'black' // Set legend text color to black
@@ -83,7 +83,4 @@ fetch('/Assets/Data/linechart.json')
     });
 
     // Menambahkan media queries untuk responsif pada layar mobile
-    if (window.matchMedia("(max-width: 768px)").matches) {
-      lineChart.options.responsive = true;
-    }
   });
