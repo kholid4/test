@@ -88,6 +88,7 @@ a:hover {
 @media (max-width: 768px) {
   .vm-container {
     padding: 150px;
+    padding-top: calc(150px + 50px); /* Adjusting padding-top to include space for the navbar */
   }
 
   .vm-slogan {
@@ -98,6 +99,7 @@ a:hover {
 @media (max-width: 480px) {
   .vm-container {
     padding: 100px;
+    padding-top: calc(150px + 50px); /* Adjusting padding-top to include space for the navbar */
   }
 
   .vm-slogan {
