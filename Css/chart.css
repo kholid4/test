@@ -138,7 +138,7 @@
   margin: 0 auto;
 }
 
-/* Media queries for responsiveness */
+/* Media query for responsiveness for all devices */
 @media screen and (max-width: 1024px) {
   .heading-analytics {
     text-align: center;
