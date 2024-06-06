@@ -3,7 +3,7 @@
   padding: 20px;
 }
 
-.text-aemas{
+.text-aemas {
   display: block;
   font-family: "Karla", sans-serif;
   font-optical-sizing: auto;
@@ -12,7 +12,7 @@
   font-size: 20px;
 }
 
-.column-feedback ::placeholder{
+.column-feedback ::placeholder {
   font-family: "Karla", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -55,7 +55,7 @@
   color: black;
   font-family: "Lato", sans-serif;
   font-weight: 600;
-  font-style:normal;
+  font-style: normal;
 }
 
 .column-feedback form input[type="text"],
@@ -91,4 +91,25 @@ p {
   margin-top: 20px;
   text-align: center;
   color: #ffffff;
+}
+
+/* Media Queries */
+
+/* For tablets and small desktops */
+@media (max-width: 1200px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .column-text,
+  .column-feedback {
+    flex: none;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .column-feedback {
+    margin-top: 20px;
+  }
 }
