@@ -138,21 +138,22 @@
   margin: 0 auto;
 }
 
-/* Media query for responsiveness for all devices */
-@media screen and (max-width: 1024px) {
+/* Media queries for responsiveness on all devices */
+@media screen and (max-width: 480px) {
   .heading-analytics {
-    text-align: center;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .analytics-title {
-    text-align: center;
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .analytics-text, .location {
-    text-align: center;
-    font-size: 18px;
+    font-size: 14px;
+  }
+
+  .dashboard1, .dashboard2, .dashboard3, .dashboard4 {
+    padding: 5%;
   }
 
   .dashboard-column-bar1, .dashboard-content-bar1, .dashboard-barlocation-bar1 {
@@ -168,23 +169,5 @@
     max-width: 100%;
     width: 100%;
     margin: 20px 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .heading-analytics {
-    font-size: 24px;
-  }
-
-  .analytics-title {
-    font-size: 20px;
-  }
-
-  .analytics-text, .location {
-    font-size: 16px;
-  }
-
-  .dashboard1, .dashboard2, .dashboard3, .dashboard4 {
-    padding: 5%;
   }
 }
